@@ -6,52 +6,45 @@ It supports running basic commands, handling directory changes (cd), and keeps a
 This project was built to deepen my understanding of system calls (fork(), execvp(), wait()) and Linux internals.
 
 ## 🚀 Features
-Run standard Linux commands (ls, pwd, date, etc.)
+- Run standard Linux commands (ls, pwd, date, etc.)
 
-Built-in cd command to change directories
+- Built-in cd command to change directories
 
-Command history (view previous commands)
+- Command history (view previous commands)
 
-Colored and dynamic prompt
+- Colored and dynamic prompt
 
-Basic error handling
+- Basic error handling
 
 ## 🔧 Technologies Used
-C++
+- C++
 
-Linux System Programming (fork, execvp, wait, chdir)
+- Linux System Programming (fork, execvp, wait, chdir)
 
-GCC Compiler
+- GCC Compiler
 
-Git for version control
+- Git for version control
 
 ## 🛠️ How to Build and Run
-Clone the repository:
-
-bash
-Copy
-Edit
+### Clone the repository:
+```bash
 git clone https://github.com/yourusername/MiniShell.git
 cd MiniShell
-Compile the project:
+```
 
-bash
-Copy
-Edit
+### Compile the project:
+```
 g++ main.cpp -o minishell
-Run the shell:
+```
 
-bash
-Copy
-Edit
+### Run the shell:
+```
 ./minishell
+```
 📸 Demo
 (You can add a screenshot or a gif later here!)
 Example:
-
-bash
-Copy
-Edit
+```
 MiniShell> pwd
 /home/username/MiniShell
 MiniShell> ls
@@ -60,28 +53,28 @@ MiniShell> cd ..
 MiniShell> pwd
 /home/username
 MiniShell> exit
+```
 ## 📚 What I Learned
-How Linux creates and manages processes.
+- How Linux creates and manages processes.
 
-How command execution actually works under the hood.
+- How command execution actually works under the hood.
 
-Handling user input and system calls properly.
+- Handling user input and system calls properly.
 
-Building real-world C++ projects.
+- Building real-world C++ projects.
 
 ## 🤔 Future Improvements
-Add support for piping (|) and redirection (>, <).
+- [ ] Add support for piping (|) and redirection (>, <).
 
-Implement tab-autocomplete for commands.
+- [ ] Implement tab-autocomplete for commands.
 
-Add signal handling (Ctrl+C to terminate running processes, but not the shell).
+- [ ] Add signal handling (Ctrl+C to terminate running processes, but not the shell).
 
-Better memory management.
+- [ ] Better memory management.
+
+- [ ] Supporting background execution using '&'
 
 ## 🧑‍💻 Author
-Your Name
-
-LinkedIn Profile
-
-GitHub Profile
-
+### Arun K R
+### [LinkedIn](https://www.linkedin.com/in/arun-k-r-3706a525b/)
+### [GitHub](https://github.com/qwerty-arun)
