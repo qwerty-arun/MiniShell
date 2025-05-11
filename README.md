@@ -1,20 +1,26 @@
 # 🐚 MiniShell - A Basic Linux Shell in C++
 
 ## 📜 About
-MiniShell is a simple Linux shell written in C++.
-It supports running basic commands, handling directory changes (cd), and keeps a simple command history.
-This project was built to deepen my understanding of system calls (fork(), execvp(), wait()) and Linux internals.
+- MiniShell is a simple Linux shell written in C++.
+- It supports running basic commands, handling directory changes (cd), and keeps a simple command history.
+- This project was built to deepen my understanding of system calls (fork(), execvp(), wait()) and Linux internals.
 
 ## 🚀 Features
-- Run standard Linux commands (ls, pwd, date, etc.)
+- **Run standard Linux commands :** Supports external commands like ls, pwd, date, echo, etc. using execvp
 
-- Built-in cd command to change directories
+- **Prompt Display :** Colored Prompt using ANSI escape codes
 
-- Command history (view previous commands)
+- **`cd` command :**  to change directories using chdir()
 
-- Colored and dynamic prompt
+- **Exit Command :** `exit` terminates the shell loop
 
-- Basic error handling
+- **History Command :** Keeps a maximum of 50 commands, trimming the oldest
+
+- **Execute Commands from History :** Supports `!N` to execute the N-th command in history
+
+- **Basic error handling :** Prints user-friendly messages when fork() or execvp() fail
+  
+- **Signal Handling :** Gracefully handles `Ctrl+C` without exiting the shell
 
 ## 🔧 Technologies Used
 - C++
@@ -64,13 +70,17 @@ MiniShell> exit
 - Building real-world C++ projects.
 
 ## 🤔 Future Improvements
-- [ ] Add support for piping (|) and redirection (>, <).
+- [ ] Add support for piping (|) and redirection (>, <)
 
-- [ ] Implement tab-autocomplete for commands.
+- [ ] Handle Command Chaining (&&, || and ;)
 
-- [ ] Add signal handling (Ctrl+C to terminate running processes, but not the shell).
+- [ ] Implement tab-autocomplete for commands
 
-- [ ] Better memory management.
+- [ ] `alias` command
+      
+- [ ] Job Control: implement `fg`, `bg` and `jobs` commands
+      
+- [ ] Support Environment Variables
 
 - [ ] Supporting background execution using '&'
 
