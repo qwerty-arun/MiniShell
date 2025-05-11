@@ -34,17 +34,17 @@
 ## 🛠️ How to Build and Run
 ### Clone the repository:
 ```bash
-git clone https://github.com/yourusername/MiniShell.git
+git clone https://github.com/qwerty-arun/MiniShell.git
 cd MiniShell
 ```
 
 ### Compile the project:
-```
+```bash
 g++ main.cpp -o minishell
 ```
 
 ### Run the shell:
-```
+```bash
 ./minishell
 ```
 ## 📸 Demo
