@@ -47,8 +47,7 @@ g++ main.cpp -o minishell
 ```
 ./minishell
 ```
-📸 Demo
-Example:
+## 📸 Demo
 ![Minishell written in C++!](images/Demo.png)
 ## 📚 What I Learned
 - How Linux creates and manages processes.
