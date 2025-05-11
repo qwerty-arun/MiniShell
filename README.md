@@ -48,18 +48,8 @@ g++ main.cpp -o minishell
 ./minishell
 ```
 📸 Demo
-(You can add a screenshot or a gif later here!)
 Example:
-```
-MiniShell> pwd
-/home/username/MiniShell
-MiniShell> ls
-main.cpp  minishell  README.md
-MiniShell> cd ..
-MiniShell> pwd
-/home/username
-MiniShell> exit
-```
+![Minishell written in C++!](images/Demo.png)
 ## 📚 What I Learned
 - How Linux creates and manages processes.
 
