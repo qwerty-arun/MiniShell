@@ -22,6 +22,10 @@
   
 - **Signal Handling :** Gracefully handles `Ctrl+C` without exiting the shell
 
+- **Command Piping :** Support for `|` for chaining commands
+
+- **Command Redirection :** Support for `>` and `>>' for redirection
+
 ## 🔧 Technologies Used
 - C++
 
