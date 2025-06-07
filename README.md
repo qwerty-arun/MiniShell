@@ -59,9 +59,9 @@ g++ main.cpp -o minishell
 - Building real-world C++ projects.
 
 ## 🤔 Future Improvements
-- [ ] Add support for piping (|) and redirection (>, <)
+- [x] Add support for piping (|) and redirection (>, <)
 
-- [ ] Handle Command Chaining (&&, || and ;)
+- [x] Handle Command Chaining (&&, || and ;)
 
 - [ ] Implement tab-autocomplete for commands
 
